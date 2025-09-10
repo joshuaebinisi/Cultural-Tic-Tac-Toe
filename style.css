@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: "Georgia", serif;
+    background-image: url(https://www.carbonbrief.org/wp-content/uploads/2020/08/nigeriaHero-1550x804.jpg);
+    background-size: cover;  
+    background-position: center;      /* Make image cover the whole area */
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-size: 30px;
+}
+section {
+    text-align: center;
+    border-radius: 10px;
+    width: 750px;
+    margin: auto;
+    background-color: #f5fbf6e8;
+    margin-top: 75px;
+    box-shadow: 0px 10px 36px 16px rgba(0, 0, 0, 0.2);
+}
+.game--title {
+    font-size: 40px;
+    font-family: "Times New Roman", serif;
+    padding-top: 50px;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 9;
+    width: 300px;
+    margin: 225px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.cell {
+    font-family: "Georgia", sans-serif;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 2px #09d85f;
+    border: 2px solid #000000;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    text-align: center;
+}
+button {
+    margin-bottom: 60px;
+    height: 80px;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: rgb(46, 155, 98);
+    cursor: pointer;
+    width: 120px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+button:hover {
+    transition: 0.25s;
+    background-color: #055c22;
+}
